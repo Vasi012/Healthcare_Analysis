@@ -10,11 +10,33 @@
 
 ## Business Requirements
 
-* Describe your business requirements
+**InsureIQ Analytics** is a data-driven healthcare insurance consultancy. Our mission is to help individuals, brokers, and insurance providers make smarter decisions using predictive modelling and data insights.
+
+**Our Services:**
+- Personal insurance cost estimations based on lifestyle and demographics
+- Risk profiling for insurance providers to better price premiums
+- Advisory reports for HR departments on group health plan optimisation
+- Regulatory compliance reporting for healthcare insurers
+
+| # | Requirement | Description |
+|---|-------------|-------------|
+| BR-01 | Cost Estimation Engine | Build a model that accurately predicts insurance charges for new clients based on their attributes |
+| BR-02 | Risk Segmentation | Segment clients into low / medium / high risk categories to guide premium pricing |
+| BR-03 | Smoking Impact Analysis | Quantify the financial uplift of smoking on premiums to advise clients on lifestyle savings |
+| BR-04 | Regional Pricing Insights | Understand geographic cost variation to advise regional insurance providers |
+| BR-05 | Family Size Advisory | Determine how the number of dependants affects costs, informing family plan recommendations |
 
 ## Hypothesis and how to validate?
 
-* List here your project hypothesis(es) and how you envision validating it (them) 
+Before touching any data, a good analyst always states their hypotheses upfront. This forces us to think critically and keeps the analysis honest.
+
+| # | Hypothesis | Reasoning |
+|---|------------|-----------|
+| H1 | **Smokers pay significantly higher insurance charges than non-smokers** | Smoking is a well-established health risk factor; insurers typically price this in heavily |
+| H2 | **Older individuals incur higher insurance charges** | Age correlates with increased medical needs and chronic conditions |
+| H3 | **Higher BMI leads to higher insurance charges** | Obesity is linked to diabetes, cardiovascular disease, and other costly conditions |
+| H4 | **The Southeast region has higher average charges than other regions** | Southern US states have higher obesity and smoking rates on average |
+| H5 | **Having more children (dependants) is associated with modestly higher charges** | More family members increase utilisation of health services |
 
 ## Project Plan
 
